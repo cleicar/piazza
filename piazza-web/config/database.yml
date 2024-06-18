@@ -1,0 +1,18 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  host: localhost
+
+development:
+  <<: *default
+  database: piazza_development
+  
+test:
+  <<: *default
+  database: piazza_test
+
+production:
+  <<: *default
+  database: piazza_production
+  
