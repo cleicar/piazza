@@ -38,3 +38,4 @@ log/*
 app/assets/builds
 
 piazza-web/tmp/cache/*
+piazza-web/tmp/cache
