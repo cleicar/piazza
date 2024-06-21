@@ -36,3 +36,5 @@ doc/uml
 log/*
 
 app/assets/builds
+
+piazza-web/tmp/cache/*
