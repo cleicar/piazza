@@ -11,6 +11,7 @@ class User < ApplicationRecord
   before_validation :strip_extraneous_spaces
 
   has_secure_password
+  
   validates :password, presence: true, length: { minimum: 8 }
 
   private
