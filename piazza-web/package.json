@@ -11,5 +11,9 @@
     "bulma": "^1.0.1",
     "esbuild": "^0.21.5",
     "sass": "^1.77.6"
+  },
+  "devDependencies": {
+    "@prettier/plugin-ruby": "^4.0.4",
+    "prettier": "^3.3.2"
   }
 }
